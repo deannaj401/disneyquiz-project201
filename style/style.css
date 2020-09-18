@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body {
+  background-color: darkblue;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  border: solid 3px black;
+  padding: 0px;
+}
+
+header>nav>ul>li>a {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 0px;
+  font-size: 20px;
+  color: red;
+  padding:0px;
+
+}
+
+
+
+header>h1 {
+  color:red;
+  font-family:'Fondamento', cursive; 
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.whoareyou {
+  display: flex-box;
+  flex-direction: column;
+  float: left;
+
+}
+
+.whoareyou>img {
+  height: 175px;
+  width: 175px;
+}
+
+.whoareyou>img {
+  -webkit-animation: fade 10s alternate infinite;
+  animation: fade 3s alternate infinite;
+  display: block;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.caterpiller {
+  float: left;
+}
+
+
+
+.intro {
+ 
+  display: flex;
+  flex-direction: column;
+ align-items:center;
+ float: right;
+
+ 
+}
+.intro>p {
+background-color: white;
+border: solid 3px red;
+font-family:'Playfair Display', cursive; 
+color: darkslateblue;
+font-size: 35px;
+text-align:center;
+float:right;
+margin-top:200px;
+margin-right: 200px;
+width: 500px;
+padding: 20px;
+
+
+order: 1;
+}
+
+.intro>a>img {
+ margin-top: 175px;
+ margin-right: 200px;
+ padding:0px;
+ 
+ order: 2;
+
+
+}
+
+.disquiz {
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:red;
+  font-size: 25px;
+  padding: 0px;
+  border: solid red 3px;
+  background-color:white;
+  
+}
+.disquiz>#answer1 {
+  
+  margin: auto;
+  text-align: center;
+}
+
+#mickey>img {
+  height: 300px;
+  margin-left: 300px;
+  margin-top: 300px;
+  float: left;
+
+}
+
+#mickeyhand {
+  
+  align-content: center;
+  color:white;
+  font-size: 25px;
+  font-family:'Playfair Display', cursive;
+  margin-top: 50px;
+  
+}
+
+
+
+

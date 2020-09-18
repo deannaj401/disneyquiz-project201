@@ -1,0 +1,1073 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Charm:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+
+
+
+.playAgain {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
+header {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  border: solid 3px black;
+  padding: 0px;
+ 
+}
+
+header>h1 {
+  font-family:'Fondamento', cursive;
+  font-size: 50px;
+  color:red;
+  text-align:center;
+  margin-top: 20px;
+
+
+}
+
+
+
+#footerchar {
+  position: fixed;
+  background-color:black;
+  height: 75px;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+
+/* alice */
+
+
+ 
+ 
+ 
+ #alice {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+
+#alice>div {
+  color: blue;
+  padding: 10px;
+  background:white;
+  font-size: 35px;
+  justify-self: center;
+  border: solid 3px orchid;
+  font-family: 'Cookie', cursive;
+ 
+}
+/* name */
+#alice>div:nth-child(1) {
+  background-color:pink;
+  grid-column: span 4;
+  justify-items: center;
+  font-size: 30px;
+  font-family: 'Cookie', cursive; 
+  
+}
+/* image */
+#alice>div:nth-child(2) {
+  grid-row: span 1;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  
+  
+}
+/* drink */
+#alice>div:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+  text-align: center;
+  font-size: 35px;
+  
+ }
+
+
+/* description */
+#alice>div:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+  font-size: 35px;
+  text-align: center;
+  font-family: cursive;
+  
+ }
+
+
+/* food */
+#alice>div:nth-child(5) {
+  grid-column: span 2;
+  text-align: center;
+}
+  
+/* } funfact */
+#alice>div:nth-child(6) {
+  
+  grid-column: span 1;
+  grid-row: span 1;
+  font-size: 25px;
+  text-align: center;
+  font-family:cursive;
+}
+
+#alice>div>p {
+  font-family:'Cookie', cursive;
+  font-size: 45px;
+  padding: 0px;
+  margin: 10px;
+}
+
+#alice>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+#alice>div>span {
+  display: block;
+}
+
+/* Captain Hook */
+  
+
+
+#captain-hook {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#captain-hook>div {
+ color: blue;
+ padding: 10px;
+ background:white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px red;
+ font-family: 'Berkshire Swash', cursive;
+}
+/* name */
+#captain-hook>div:nth-child(1) {
+  background-color:lightblue;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 25px;
+ font-family: 'Berkshire Swash', cursive; 
+ 
+}
+/* image */
+#captain-hook>div:nth-child(2) {
+ grid-row: span 1;
+ /* display: flex; */
+ justify-content: center;
+ align-items: center;
+ font-family: cursive;
+ 
+ 
+}
+/* drink */
+#captain-hook>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+ 
+ 
+
+}
+/* description */
+#captain-hook>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+  
+ 
+
+
+}
+/* food */
+#captain-hook>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#captain-hook>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#captain-hook>div>p {
+ font-family:  'Berkshire Swash', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#captain-hook>h1 {
+  font-size: 25px;
+ font-family: 'Berkshire Swash', cursive;
+ color: darkblue;
+ text-align: center;
+
+}
+
+#captain-hook>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* Genie */
+
+
+
+#genie {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#genie>div {
+ color: blue;
+ padding: 10px;
+ background:white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px blue;
+ font-family: 'Aladin', cursive;
+}
+
+/* name */
+#genie>div:nth-child(1) {
+  background-color: green;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 25px;
+ font-family: 'Aladin', cursive;
+
+ 
+}
+/* image */
+#genie>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ font-family: cursive;
+ 
+ 
+}
+/* drink */
+#genie>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 15px;
+
+ 
+ 
+
+}
+/* description */
+#genie>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#genie>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#genie>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#genie>div>span {
+  font-family: 'Aladin', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#genie>div>h1 {
+  background-color: white;
+  font-size: 45px;
+
+}
+
+/*  Ursula*/
+
+
+
+
+
+#ursula {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#ursula>div {
+ color: blue;
+ padding: 10px;
+ background:black;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px darkcyan;
+ font-family:'Charm', cursive;
+}
+
+/* name */
+#ursula>div:nth-child(1) {
+ grid-column: span 4;
+ background-color:green;
+
+ justify-items: center;
+ font-size: 25px;
+ font-family:'Charm', cursive;
+
+ 
+}
+/* image */
+#ursula>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ font-family: cursive;
+ 
+ 
+}
+/* drink */
+#ursula>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#ursula>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#ursula>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#ursula>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#ursula>div>p {
+  font-family:'Charm', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#ursula>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+
+/* baymax */
+
+
+
+
+
+#baymax {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#baymax>div {
+ color: blue;
+ padding: 10px;
+ background:white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px black;
+ font-family:'Bungee', cursive;
+}
+
+/* name */
+#baymax>div:nth-child(1) {
+  background-color:red;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 45px;
+ font-family:'Bungee', cursive;
+
+ 
+}
+/* image */
+#baymax>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ font-family: cursive;
+ 
+ 
+}
+/* drink */
+#baymax>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#baymax>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#baymax>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#baymax>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#baymax>div>p {
+  font-family:'Bungee', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#baymax>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* boba-fett */
+ 
+
+
+
+#boba-fett {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#boba-fett>div {
+ color:rgb(78, 61, 5);
+ padding: 10px;
+ background:white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px black;
+ font-family:'Bungee', cursive;
+}
+
+/* name */
+#boba-fett>div:nth-child(1) {
+  background-color:darkolivegreen;
+ grid-column: span 4;
+ justify-items: center;
+ margin-top:10px;
+ font-size: 40px;
+ font-family:'Bungee', cursive;
+
+ 
+}
+/* image */
+#boba-fett>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ font-family: cursive;
+ 
+ 
+}
+/* drink */
+#boba-fett>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#boba-fett>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+ 
+
+/* food */
+#boba-fett>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#boba-fett>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#boba-fett>div>p {
+  font-family:'Bungee', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#boba-fett>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* hades */
+
+
+
+
+#hades {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#hades>div {
+ color:black;
+ padding: 10px;
+ background-color: darkslategray;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px darkslateblue;
+ font-family:'Rakkas', cursive;
+}
+
+/* name */
+#hades>div:nth-child(1) {
+  background-color: black;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 40px;
+ font-family:'Rakkas', cursive;
+
+ 
+}
+/* image */
+#hades>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ 
+}
+/* drink */
+#hades>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#hades>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#hades>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#hades>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#hades>div>p {
+  font-family:'Rakkas', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#hades>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* maleficent */
+ 
+
+
+
+ #maleficent {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#maleficent>div {
+ color:black;
+ padding: 10px;
+ background-color: darkslategray;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px darkslateblue;
+ font-family:'Rakkas', cursive;
+}
+
+/* name */
+ #maleficent>div:nth-child(1) {
+  background-color:rgb(48, 25, 58);
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 40px;
+ font-family:'Rakkas', cursive;
+
+ 
+}
+/* image */
+#maleficent>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ padding-top: 80px;
+ 
+ 
+ 
+}
+/* drink */
+ #maleficent>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+ #maleficent>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+ #maleficent>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+ #maleficent>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+ #maleficent>div>p {
+font-family:'Rakkas', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#maleficent>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* snow-white */
+
+
+
+
+
+#snow-white {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#snow-white>div {
+ color:red;
+ padding: 10px;
+ background-color: white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px blue;
+ font-family: cursive;
+}
+
+/* name */
+#snow-white>div:nth-child(1) {
+  background-color:lightblue;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 40px;
+ font-family:'Playfair Display', cursive;
+
+ 
+}
+/* image */
+#snow-white>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ 
+}
+/* drink */
+#snow-white>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#snow-white>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#snow-white>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#snow-white>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#snow-white>div>p {
+font-family:'Playfair Display', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#snow-white>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+
+/* pinnocchio */
+
+
+
+
+#pinnocchio {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#pinnocchio>div {
+ color:darkblue;
+ padding: 10px;
+ background-color: white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px red;
+ font-family: cursive;
+}
+
+/* name */
+#pinnocchio>div:nth-child(1) {
+  background-color:darkblue;
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 40px;
+ font-family:'Black Han Sans', sans-serif;
+
+ 
+}
+/* image */
+#pinnocchio>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ padding:50px;
+ 
+ 
+}
+/* drink */
+#pinnocchio>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#pinnocchio>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#pinnocchio>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#pinnocchio>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#pinnocchio>div>p {
+font-family:'Playfair Display', cursive;
+ font-size: 45px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#pinnocchio>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
+
+/* princess-leia */
+
+
+
+
+#princess-leia {
+ display: grid;
+ grid-template-rows: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ height: 100vh;
+ margin: 0;
+}
+
+#princess-leia>div {
+ color:darkblue;
+ padding: 10px;
+ background-color: white;
+ font-size: 20px;
+ justify-self: center;
+ border: solid 3px darkblue;
+ font-family: cursive;
+}
+
+/* name */
+#princess-leia>div:nth-child(1) {
+  background-color:rgb(51, 51, 146);
+ grid-column: span 4;
+ justify-items: center;
+ font-size: 40px;
+ font-family:'Bungee', cursive;
+
+ 
+}
+/* image */
+#princess-leia>div:nth-child(2) {
+ grid-row: span 1;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ 
+}
+/* drink */
+#princess-leia>div:nth-child(3) {
+ grid-column: span 1;
+ grid-row: span 1;
+ text-align: center;
+ font-size: 25px;
+
+}
+/* description */
+#princess-leia>div:nth-child(4) {
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 35px;
+ text-align: center;
+ font-family: cursive;
+ 
+ }
+
+/* food */
+#princess-leia>div:nth-child(5) {
+ grid-column: span 2;
+ text-align: center;
+}
+ 
+/* } funfact */
+#princess-leia>div:nth-child(6) {
+ 
+ grid-column: span 1;
+ grid-row: span 1;
+ font-size: 25px;
+ text-align: center;
+ font-family:cursive;
+}
+
+#princess-leia>div>p {
+  font-family:'Bungee', cursive;
+ font-size: 55px;
+ padding: 0px;
+ margin: 10px;
+}
+
+#princess-leia>div>h1 {
+  background-color: white;
+  font-size: 45px;
+  
+}
